@@ -1,12 +1,12 @@
-﻿#####################################################
-#													#
-#    Usage: Audit.ps1 'pathtolistofservers'         #
-#													#
+#########################################################
+#							#
+#    Usage: Audit.ps1 'pathtolistofservers'         	#
+#							#
 #    The file is optional and needs to be a 		#
 #	 plain text list of computers to be audited 	#
-#	 one on each line.								#
-#                                                   #
-#####################################################
+#	 one on each line.				#
+#                                                   	#
+#########################################################
 
 param( [string] $auditlist)
 
