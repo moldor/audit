@@ -1,1 +1,24 @@
 
+Changes needed, in no particular order
+
+* Change:     Remove non-US keyboards, or at least comment them out
+  Rationale:  I only use a US (International) keyboard so why complicate things by having
+              to lookup keyboard types. I recognise that others are not native English 
+              speakers, so these need to be commented out so they can be restored at a later date
+  Started:
+  Finished:
+  
+* Change:     Better handling of non-responsive machines
+  Rationale:  Currently non-responsive machines just time out of the RPC server on them is not
+              available. Messy and rather inelegant. Need to add some way of handling them where
+              they are flagged as non-respondive to the user, but no output is created
+  Started:    
+  Finished:   
+  
+* Change:     Personalization of the basic reporting format.
+  Rationale:  If a company wants to use this, it is entirely possible they would want to have
+              their company logo or some other personalization of the reports.
+  Started:    
+  Finished:   
+  
+* Change:     
